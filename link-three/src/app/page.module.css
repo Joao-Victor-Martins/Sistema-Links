@@ -1,0 +1,13 @@
+.container_geral {
+    background-image: url("@/../../../public/BackGround.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    height: 100vh;
+}

@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Ótica Diniz - SB",
@@ -11,6 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="pt-br">
       <body>
         {children}
+        <Footer />
       </body>
     </html>
   );

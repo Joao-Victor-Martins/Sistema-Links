@@ -6,10 +6,10 @@ import Link from 'next/link'
 
 import LineHeader from '@/../../public/Line.svg'
 import Monara from '@/../../public/MONARA.png'
-import MariaVitoria from '@/../../public/MARIAVITORIA.png'
+import MariaVitoria from '@/../../public/MARIAVITORIA.jpeg'
 import Francimaria from '@/../../public/FRANCIMARIA.png'
 import Kalunga from '@/../../public/KALUNGA.png'
-import Valquiria from '@/../../public/VALQUIRIA.png'
+import Valquiria from '@/../../public/VALQUIRIA.jpeg'
 
 
 export default function Modal({ titleModal, logoModal, urlLogoRedirect, textMenssage }) {

@@ -9,7 +9,7 @@ import Monara from '@/../../public/MONARA.png'
 import MariaVitoria from '@/../../public/MARIAVITORIA.png'
 import Elane from '@/../../public/ELANE.png'
 import Kalunga from '@/../../public/KALUNGA.png'
-import Valquiria from '@/../../public/VALQUIRIA.png'
+// import Valquiria from '@/../../public/VALQUIRIA.png'
 
 
 export default function Modal({ titleModal, logoModal, urlLogoRedirect, textMenssage }) {

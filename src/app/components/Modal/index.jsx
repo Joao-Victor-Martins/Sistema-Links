@@ -7,7 +7,7 @@ import Link from 'next/link'
 import LineHeader from '@/../../public/Line.svg'
 import Monara from '@/../../public/MONARA.png'
 import MariaVitoria from '@/../../public/MARIAVITORIA.png'
-import MariaSocorro from '@/../../public/MARIASOCORRO.png'
+import Elane from '@/../../public/ELANE.png'
 import Kalunga from '@/../../public/KALUNGA.png'
 import Valquiria from '@/../../public/VALQUIRIA.png'
 
@@ -36,20 +36,20 @@ export default function Modal({ titleModal, logoModal, urlLogoRedirect, textMens
                     nomeAtendente={"Maria Vitória"}
                     />
                     <LinkContact 
-                    linkAtendente={"https://wa.me/558398910087?text=Ol%C3%A1,%20Gostaria%20de%20Falar%20com%20Maria%20do%20Socorro"} 
-                    imageAtendente={MariaSocorro} 
-                    nomeAtendente={"Maria do Socorro"}
+                    linkAtendente={"https://wa.me/558398910087?text=Ol%C3%A1,%20Gostaria%20de%20Falar%20com%20Elane"} 
+                    imageAtendente={Elane} 
+                    nomeAtendente={"Elane"}
                     />
                     <LinkContact 
                     linkAtendente={"https://wa.me/558398910084?text=Ol%C3%A1,%20Gostaria%20de%20Falar%20com%20Kalunga"} 
                     imageAtendente={Kalunga} 
                     nomeAtendente={"Kalunga"}
                     />
-                    <LinkContact 
+                    {/* <LinkContact 
                     linkAtendente={"https://wa.me/558398910094?text=Ol%C3%A1,%20Gostaria%20de%20Falar%20com%20Valquiria"} 
                     imageAtendente={Valquiria} 
                     nomeAtendente={"Valquiria"}
-                    />
+                    /> */}
                 </div>
             </div>
         </section>

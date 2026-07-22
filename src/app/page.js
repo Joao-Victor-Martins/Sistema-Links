@@ -1,7 +1,7 @@
 import Modal from "./components/Modal"
 import styles from './page.module.css'
 
-import Logo from '@/../../public/LOGO DINIZ.png';
+import Logo from '@/../public/LOGO DINIZ.png';
 
 export default function Home() {
   return (
